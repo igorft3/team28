@@ -1,0 +1,80 @@
+footer {
+  background-color: #cfcfcf;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 24px;
+  background-color: #cfcfcf;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.logo-svg {
+  width: 30px;
+  height: auto;
+  aspect-ratio: 0.58;
+}
+
+.footer__contact-us {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footer__link {
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer__wrapp-strip {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.stripe:nth-child(1) {
+  margin: 0;
+}
+
+.stripe {
+  background-color: black;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.stripe:nth-child(1) {
+  height: 20px;
+  margin-top: 0;
+}
+
+.stripe:nth-child(2) {
+  height: 15px;
+  margin: 3px 0;
+}
+
+.stripe:nth-child(3) {
+  height: 10px;
+  margin: 5px 0;
+}
+
+.stripe:nth-child(4) {
+  height: 5px;
+  margin: 10px 0;
+}
+
+.stripe:nth-child(5) {
+  height: 3px;
+  margin: 15px 0;
+}

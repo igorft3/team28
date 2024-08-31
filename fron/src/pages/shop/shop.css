@@ -1,0 +1,132 @@
+:root {
+  --min-width: min-width; /* Задайте здесь ваше начальное значение */
+  min-width: calc(var(--min-width) + 20px);
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.shop__container {
+  padding: 0 30px;
+}
+
+.container {
+}
+
+.shop__wrapp-text {
+  margin-bottom: 30px;
+}
+
+.shop__title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+
+.shop__text {
+  margin: 0;
+  font-size: 24px;
+}
+
+.shop__list-filter {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.shop__item__filter {
+  background-color: #fff;
+  border-radius: 99em;
+  padding: 20px 35px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.shop__filter-wrapp {
+  /* display: flex;
+  flex-direction: column;
+  gap: 5px; */
+}
+
+.shop__item__filter span {
+  background: url("./arrow-icon.webp") no-repeat center center / 14px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  aspect-ratio: 1 / 1;
+}
+
+/* .shop__item__filter:last-child {
+  margin-left: auto;
+} */
+
+.shop__filter-name {
+  margin: 0;
+  font-size: 13px;
+  color: #717171;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 180px;
+}
+
+.shop__filter-name select {
+  border: none;
+  font-size: 20px;
+}
+
+.shop__filter-value {
+  font-size: 20px;
+  margin: 0;
+}
+
+.shop__list {
+  margin-bottom: 60px;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.pagination-btn {
+  width: 57px;
+  height: auto;
+  font-size: 20px;
+  aspect-ratio: 1 / 1;
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: color ease 0.3s, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.pagination-btn:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.pagination-btn.active {
+  color: #fff;
+  background-color: #000;
+}
+
+.shop__filter-field {
+  border: 1px solid #717171;
+  border-radius: 99em;
+  padding: 10px;
+}

@@ -1,0 +1,27 @@
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-list {
+  display: flex;
+  white-space: nowrap;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  padding: 0 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.carousel-list {
+  animation: scroll 10s linear infinite;
+}

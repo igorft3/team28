@@ -1,0 +1,50 @@
+.shop__item {
+  width: 19.5%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.shop__img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.shop__subtitle {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.shop__desc {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.shop__price {
+  margin: 0;
+}
+
+.shop__btn {
+  align-self: flex-end;
+  border-radius: 99em;
+  margin-top: auto;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  background-color: #fff;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color ease 0.3s, background-color ease 0.3s;
+  color: #000;
+}
+
+.shop__btn:hover {
+  color: #fff;
+  background-color: #000;
+}

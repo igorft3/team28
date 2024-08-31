@@ -1,0 +1,151 @@
+.container {
+  width: 100%;
+}
+
+.tab-active {
+  background-color: #fff;
+  text-decoration: underline;
+}
+
+.profile__container {
+  padding: 35px 0;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.profile__list {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile__item {
+  padding: 15px 25px;
+  font-size: 33px;
+  font-weight: 400;
+  border-radius: 99em;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.profile__item:hover {
+  background-color: #fff;
+}
+
+.profile__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 100px;
+}
+
+/* user */
+.profile__list-user {
+  flex-direction: column;
+  width: 100%;
+}
+
+.profile__item-user {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  border-bottom: 2px solid #fff;
+}
+
+.profile__user-label {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.profile__user-field {
+  margin: 0;
+  align-self: flex-end;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+/* history */
+
+.profile__history-name {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.profile__history-value {
+  margin: 0;
+}
+
+.profile__history-name::first-letter {
+  text-transform: uppercase;
+}
+
+.profile__container {
+  margin-bottom: auto !important;
+}
+
+.profile__list-history {
+  flex-direction: column;
+}
+
+.profile__item-history {
+  padding: 10px 0;
+  border-bottom: 2px solid #fff;
+}
+
+.profile__item-product img {
+  width: 120px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+}
+
+.profile__list-product {
+  justify-content: space-between;
+}
+
+.profile__manager-list {
+  width: 100%;
+  gap: 20px;
+}
+.profile__manager-item {
+  padding: 15px 25px;
+  font-size: 33px;
+  font-weight: 400;
+  border-radius: 99em;
+  white-space: nowrap;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.profile__list-create {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.profile__list-create {
+}
+
+.profile__item-create {
+}
+
+.profile__create-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__create-label input {
+  padding: 10px;
+  border: none;
+}
+
+.file {
+}

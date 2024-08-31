@@ -1,0 +1,148 @@
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.shop {
+}
+
+.shop__container {
+  padding: 0 30px;
+}
+
+.container {
+}
+
+.shop__wrapp-text {
+  margin-bottom: 30px;
+}
+
+.shop__title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+
+.shop__text {
+  margin: 0;
+}
+
+.shop__list-filter {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.shop__item__filter {
+  background-color: #fff;
+  border-radius: 99em;
+  padding: 20px 35px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.shop__filter-wrapp {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.shop__item__filter span {
+  background: url("./arrow-icon.webp") no-repeat center center / 14px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  aspect-ratio: 1 / 1;
+}
+
+.shop__item__filter:last-child {
+  margin-left: auto;
+}
+
+.shop__filter-name {
+  margin: 0;
+  font-size: 13px;
+  color: #717171;
+}
+
+.shop__filter-value {
+  font-size: 20px;
+  margin: 0;
+}
+
+.shop__list {
+  margin-bottom: 60px;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.shop__item {
+  width: 23.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.shop__img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.shop__subtitle {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.shop__desc {
+  margin: 0;
+}
+
+.shop__btn {
+  align-self: flex-end;
+  border-radius: 99em;
+  margin-top: auto;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  background-color: #fff;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color ease 0.3s, background-color ease 0.3s;
+}
+
+.shop__btn:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.shop__popup {
+}
+
+.popup {
+}
+
+.popup-container {
+}
+
+.popup__title {
+}
+
+.popup__desc {
+}
+
+.popup__img {
+}
+
+.popup__btn {
+}

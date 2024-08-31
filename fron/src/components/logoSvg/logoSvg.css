@@ -1,0 +1,15 @@
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.logo-svg {
+  width: 30px;
+  height: auto;
+  aspect-ratio: 0.58;
+}
